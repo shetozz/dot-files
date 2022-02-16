@@ -1,0 +1,82 @@
+configuration {
+	modi:				            "drun,run,window";
+	font:			            	"JerBrainsMono Nerd Font Bold 10";
+	display-drun: 			        "Apps: ";
+	drun-display-format:            "{icon} {name}";
+	display-window:                 "OpenTabs";
+    window-display-format:          "{icon} ";
+    show-icons:                      true;
+    icon-theme:                     "Tela-dark";
+}
+
+* {
+	bg:				#282c34;
+	fg:				#ABB2BF;
+	button:			#56B6c2;
+    sb:             #61AFEF;
+	background-color:		@bg;
+	text-color:			@fg;
+}
+
+window {
+	width:			    	45%;
+}
+
+prompt{
+
+    background-color:               @sb;
+    text-color:                     @bg;
+    border-radius:                  5px;
+    padding:            8px 8px 8px 8px;
+
+}
+
+entry{
+    background-color:               @sb;
+    text-color:                     @bg;
+    border-radius:                  5px;
+    padding:            8px 8px 8px 8px;
+
+
+
+}
+inputbar {
+	children: 			[ prompt, entry ];
+	background-color:               @bg;
+    padding:            8px 8px 8px 8px;
+
+}
+
+listview {
+	columns:                        1;
+	lines:	                        5;
+	cycle:                          false;
+	dynamic:                        true;
+	layout:                         vertical;
+    padding:            8px 8px 8px 8px;
+}
+
+mainbox { children: [ inputbar, listview ]; }
+
+element {
+	orientation:                    vertical;
+    padding:            8px 8px 8px 8px;
+	border-radius:			8px;
+}
+
+element-icon {
+    size: 15;
+}
+element-text {
+	expand:                         true;
+	vertical-align:                 0.5;
+	background-color: 		inherit;
+	text-color:       		inherit;
+}
+
+element selected {
+	background-color:               @button;
+	border-radius:                  8px;
+    text-color:                     @bg;
+
+}

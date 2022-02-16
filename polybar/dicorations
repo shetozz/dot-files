@@ -1,0 +1,150 @@
+;Dicorations
+
+[module/sep]
+type = custom/text
+content = -
+
+content-background = ${colors.BG}
+content-foreground = ${colors.BG}
+
+;; Dots
+
+[module/dot]
+type = custom/text
+content = 
+content-foreground = ${colors.BGL}
+content-padding = 1
+content-font = 4
+
+[module/dot-alt]
+inherit = module/dot
+content-foreground = ${colors.BLUEGRAY}
+
+
+[module/space]
+type = custom/text
+content = "  "
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/LD]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+
+
+
+[module/LD-ca]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+
+[module/LD-cb]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+
+[module/LD-cc]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+
+[module/LD-cd]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+
+
+[module/LD-ce]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+
+
+[module/LD-cf]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+[module/LD-cg]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+[module/LD-ch]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+;########################################### RD ##########################################
+
+
+[module/RD]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.BG}
+content-foreground = ${colors.BGL}
+
+[module/RD-ca]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkca}
+content-foreground = ${colors.onedarkca}
+
+[module/RD-cb]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarccb}
+content-foreground = ${colors.onedarccb}
+
+[module/RD-cc]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkcc}
+content-foreground = ${colors.onedarkcc}
+
+[module/RD-cd]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkcd}
+content-foreground = ${colors.onedarkcd}
+
+[module/RD-ce]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkce}
+content-foreground = ${colors.onedarkce}
+
+[module/RD-cf]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkcf}
+content-foreground = ${colors.onedarkcf}
+
+[module/RD-cg]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkcg}
+content-foreground = ${colors.onedarkcg}
+
+[module/RD-ch]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${colors.onedarkch}
+content-foreground = ${colors.onedarkch}
+
+
