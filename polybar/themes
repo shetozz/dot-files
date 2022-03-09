@@ -1,0 +1,57 @@
+[themes]
+;background #darkcolors
+
+onedarkbg       = #282c34
+archcraftbg     = #1E2128
+
+;foreground #lightcolors
+
+onedarkfg       = #ABB2BF
+archcraftfg     = #D8D8D8
+
+; GRAY
+archcraftgray       = #8C8C8C
+archcraftbgbluegray = #6F8A91
+
+; RED
+
+onedarkred       = #E06c76
+archcraftred     = #E06B74
+
+; PINK
+archcraftpink    = #D46389
+
+
+; GREEN
+onedarkgreen     = #98c379
+
+; YELLOW
+onedarkyellow    = #E5c07B
+archcraftyellow  = #D4B158
+
+; LIME
+archcraftlime    = #D7DD91
+
+; ORANGE
+archcraftorange  = #D49474
+
+
+; BLUE
+onedarkblue      = #61AFEF
+archcraftblue    = #62AEEF
+
+
+; PURPLE
+onedarkpurple    = #c678DD
+archcraftpurple  = #7985D0
+archcraftindigo  = #4B0082
+
+; CYAN
+onedarkcyan      = #56B6c2
+
+; TEAL
+archcraftcyan    = #8BC5BF
+
+
+; BROWN
+archcraftbrown   = #AC8476

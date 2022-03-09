@@ -12,7 +12,7 @@ content-foreground = ${colors.BG}
 [module/dot]
 type = custom/text
 content = 
-content-foreground = ${colors.BGL}
+content-foreground = ${colors.BG}
 content-padding = 1
 content-font = 4
 
@@ -31,7 +31,7 @@ content = "  "
 type = custom/text
 content = "%{T3}%{T-}"
 content-background = ${colors.BG}
-content-foreground = ${colors.BGL}
+content-foreground = ${colors.BG}
 
 
 
@@ -97,7 +97,7 @@ content-foreground = ${colors.BGL}
 type = custom/text
 content = "%{T3}%{T-}"
 content-background = ${colors.BG}
-content-foreground = ${colors.BGL}
+content-foreground = ${colors.BG}
 
 [module/RD-ca]
 type = custom/text

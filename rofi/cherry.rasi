@@ -1,19 +1,19 @@
 configuration {
-	modi:				            "drun,run,window";
-	font:			            	"JerBrainsMono Nerd Font Bold 10";
-	display-drun: 			        "Apps: ";
+	modi:			        "drun,run,window";
+	font:			        "JerBrainsMono-Bold 10";
+	display-drun: 		        "Apps: ";
 	drun-display-format:            "{icon} {name}";
 	display-window:                 "OpenTabs";
-    window-display-format:          "{icon} ";
-    show-icons:                      true;
-    icon-theme:                     "Tela-dark";
+        window-display-format:          "{icon} ";
+        show-icons:                      true;
+        icon-theme:                     "Tela-dark";
 }
 
 * {
 	bg:				#282c34;
 	fg:				#ABB2BF;
-	button:			#56B6c2;
-    sb:             #61AFEF;
+	button:		        	#56B6c2;
+        sb:                             #61AFEF;
 	background-color:		@bg;
 	text-color:			@fg;
 }
@@ -41,9 +41,9 @@ entry{
 
 }
 inputbar {
-	children: 			[ prompt, entry ];
-	background-color:               @bg;
-    padding:            8px 8px 8px 8px;
+	children:       	[ prompt, entry ];
+	background-color:                     @bg;
+        padding:                  8px 8px 8px 8px;
 
 }
 
@@ -53,19 +53,19 @@ listview {
 	cycle:                          false;
 	dynamic:                        true;
 	layout:                         vertical;
-    padding:            8px 8px 8px 8px;
+        padding:            8px 8px 8px 8px;
 }
 
 mainbox { children: [ inputbar, listview ]; }
 
 element {
 	orientation:                    vertical;
-    padding:            8px 8px 8px 8px;
+        padding:            8px 8px 8px 8px;
 	border-radius:			8px;
 }
 
 element-icon {
-    size: 15;
+         size: 15;
 }
 element-text {
 	expand:                         true;
@@ -77,6 +77,6 @@ element-text {
 element selected {
 	background-color:               @button;
 	border-radius:                  8px;
-    text-color:                     @bg;
+        text-color:                     @bg;
 
 }
